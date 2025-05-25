@@ -1,0 +1,41 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    background-color: #ffffff; /* белый фон */
+}
+
+aside {
+    min-width: 250px;
+    background-color: #ffffff; /* убран тёмный фон */
+    color: black;              /* текст тёмный */
+    padding: 20px;
+}
+
+aside img {
+    display: block;
+    margin: 0 auto 10px;
+}
+
+aside span {
+    display: block;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+aside ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+aside li {
+    margin-bottom: 10px;
+}
+
+aside a {
+    color: #000000;
+    text-decoration: none;
+}
+
+asid

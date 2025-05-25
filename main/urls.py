@@ -1,0 +1,12 @@
+from django.urls import path
+from . import views
+
+urlpatterns = [
+    path('', views.index, name='index'),
+    path('new_post/', views.new_post, name='new_post'),
+    path('new/', views.new),
+    path('page1/', views.page1, name='page1'),
+    path('page2/', views.page2, name='page2'),
+    path('page3/', views.page3, name='page3'),
+    path('page4/', views.page4, name='page4'),
+]
